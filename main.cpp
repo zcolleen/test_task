@@ -4,6 +4,7 @@
 int main() {
 
     Synchronizer synchronizer;
+
     synchronizer.fillWithNumbers();
     std::cout << RED << "Starting arrays " << std::endl;
     synchronizer.print();
